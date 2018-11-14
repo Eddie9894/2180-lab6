@@ -30,9 +30,9 @@ function parse_xml_result(response){
         results+=`<li><h3>${definitions[i].attributes[0].value.toUpperCase()}</h3><p>${definitions[i].innerHTML.trim()}</p><p> - ${definitions[i].attributes[1].value}</p></li>`;
     }
     
-    results+= "</ol>"
+    results+= "</ol>";
     
-    update_word_results(results)
+    update_word_results(results);
 }
 
 function update_word_results(response){
@@ -40,8 +40,8 @@ function update_word_results(response){
 }
 
 function main(){
-    let submit = $("#submission")[0];
-    let submitAll = $("#all")[0];
+    let submit = /global$/("#submission")[0];
+    let submitAll = /global$/("#all")[0];
     
     submit.onclick = function(event){
         event.preventDefault();
@@ -53,6 +53,6 @@ function main(){
         event.preventDefault();
         ajax_word_query('', true);
         document.getElementsByName("q")[0].value = "";
-    }
+    };
     
 }

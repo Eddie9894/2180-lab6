@@ -1,61 +1,64 @@
-hr{
-    border: 0.5px solid black;
+.resultheading{
+  font-weight:bold;
+  font-size:16px;
+  border-width: 400px;
+  border-top: thick double navy;
 }
 
-body{
-    font-family: fantasy, Georgia, serif;
+.result{
+    font-weight: bold;
+    font-size: medium;
 }
 
-
-#pagetitle{
-    padding: 20px 5px;
-    border: 1px solid black;
-    text-align: center;
-    font-size: 40px;
-    background-color: #7B7BD1;
-    font-style: italic;
-    color: #DCDCED;
+.heading{
+    position: relative;
+    left:50px;
+    top:30px;
+    font-weight: bold;
 }
 
-#overall{
-    width: 50%;
+header{
+    background-color: purple;
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    width:800px;
+    height:100px;
+    left: 60px;
+    position: relative;
+    color: white;
+    border-radius: 10px 10px;
 }
 
 #main{
-    padding: 5px 20px;
-    background-color: #DCDCED;
-    border: 1px solid black;
+    width: 760px;
+    background-color: white;
+    left: 60px;
+    height:80px;
+    position: relative; 
+    padding-left: 20px;
+    padding-right:20px;
 }
 
-#search-bar {
-    border-radius: 7px;
-    height: 40px;
-    font-style: italic;
-    font-family: serif;
-    padding: 5px;
+.head{
+    color: purple;
+    font-weight: bold;
 }
 
-#submission {
+.button{
+    background-color: grey;
+    border-radius: 15px 15px;
+    width: 150px;
     height: 35px;
-    width: 65px;
+    color: white;
+    position: relative;
+    left:40px;
+    top:0;
 }
 
-#all{
-    height: 35px;
-    width: 120px;
+.input{
+    width: 250px;
+    height:30px;
+    border-radius: 10px 10px;
 }
 
-#result{
-    font-family:"Times New Roman";
-    font-style: italic;
-}
-
-#main, #overall, #pagetitle{
-    margin: auto;
-}
-
-div > .example{
-    font-style: italic;
-    font-size: 12px;
-    color: #515050;
-}
+.
